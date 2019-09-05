@@ -7,5 +7,6 @@ def key_for_min_value(name_hash)
     while name[age] < name[age]
       return age
     end
+  end
 
 end
