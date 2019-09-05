@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   min_value = nil
 
   name_hash.collect do |name, age|
-
+    if min_value == nil || age < min_value
 
   end
 
