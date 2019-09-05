@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |name, age| # Our each method will iterate over both the keys and values found within.
     if min_value == nil || age < min_value # We create an 'or' conditional: If the value is = 'nil', we set that key equal to 'nil' as well.
       min_value = age                      # But, if the first part is false, we look at the second part.
-      min_key = name
+      min_key = name                       # Then, it will take our values and compare them to see which one is less than the other.
     end
   end
   min_key
