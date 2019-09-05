@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   name_hash.collect do |name, age|
     if name[age]
       name
-    else
+    else name[age] = " "
       return nil
     end
   end
